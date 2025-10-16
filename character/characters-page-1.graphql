@@ -1,0 +1,10 @@
+query GetCharacters($page: Int! = 1) {
+  characters(page: $page) {
+    results {
+      id
+      name
+      status
+      image
+    }
+  }
+}

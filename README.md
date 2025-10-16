@@ -21,3 +21,22 @@ This project demonstrates how to use GraphQL to fetch character details from the
 - species
 - type
 - gender
+
+## Paginated Characters Query
+
+This section fetches a paginated list of characters from the Rick and Morty API for pages 1, 2, 3, and 4.
+
+### Files
+- `characters-page-1.graphql`, `characters-page-2.graphql`, `characters-page-3.graphql`, `characters-page-4.graphql`: GraphQL queries for pages 1–4.
+- `characters-page-1-output.json`, `characters-page-2-output.json`, `characters-page-3-output.json`, `characters-page-4-output.json`: JSON outputs for each page.
+- `fetch-characters-pages.js`: Node.js script to execute the paginated queries.
+
+### Fields Queried
+- id
+- name
+- status
+- image
+
+### Run Instructions
+1. Ensure dependencies are installed: `npm install`.
+2. Run the script: `node fetch-characters-pages.js`.
