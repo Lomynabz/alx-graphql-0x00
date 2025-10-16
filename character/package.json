@@ -1,0 +1,24 @@
+{
+  "name": "alx-graphql-0x00",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lomynabz/alx-graphql-0x00.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lomynabz/alx-graphql-0x00/issues"
+  },
+  "homepage": "https://github.com/Lomynabz/alx-graphql-0x00#readme",
+  "dependencies": {
+    "graphql": "^16.11.0",
+    "graphql-request": "^7.3.0"
+  }
+}
