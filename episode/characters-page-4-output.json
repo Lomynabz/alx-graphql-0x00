@@ -1,0 +1,32 @@
+{
+  "data": {
+    "characters": {
+      "results": [
+        {
+          "id": "1",
+          "name": "Rick Sanchez",
+          "status": "Alive",
+          "species": "Human",
+          "origin": {
+            "name": "Earth (C-137)"
+          },
+          "location": {
+            "name": "Citadel of Ricks"
+          }
+        },
+        {
+          "id": "2",
+          "name": "Morty Smith",
+          "status": "Alive",
+          "species": "Human",
+          "origin": {
+            "name": "Earth (C-137)"
+          },
+          "location": {
+            "name": "Citadel of Ricks"
+          }
+        }
+      ]
+    }
+  }
+}

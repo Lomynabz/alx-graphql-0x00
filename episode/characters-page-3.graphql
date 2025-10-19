@@ -1,0 +1,10 @@
+query GetAliveCharacters {
+  characters(filter: { status: "Alive" }) {
+    results {
+      id
+      name
+      status
+      species
+    }
+  }
+}

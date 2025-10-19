@@ -1,0 +1,16 @@
+query GetHumanCharacters {
+  characters(filter: { species: "Human" }) {
+    results {
+      id
+      name
+      status
+      species
+      origin {
+        name
+      }
+      location {
+        name
+      }
+    }
+  }
+}
