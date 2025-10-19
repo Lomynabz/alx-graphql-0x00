@@ -48,3 +48,27 @@ This section fetches a paginated list of characters from the Rick and Morty API 
   - Query: `episode-page-1.graphql`
   - Variables: `{ "id": "1" }`
   - Expected Output: See `episode-page-1-output.json` (if created).
+
+  # alx-rick-and-morty-app
+
+A Next.js application integrated with GraphQL to fetch data from the Rick and Morty API.
+
+## Setup
+- **Repository**: `alx-graphql-0x01`
+- **Directory**: `alx-rick-and-morty-app`
+- **Files**:
+  - `graphql/apolloClient.ts`: Configures Apollo Client for the Rick and Morty GraphQL API.
+  - `graphql/queries.ts`: Defines the `GET_EPISODES` query to fetch episodes with pagination and filtering.
+  - `pages/_app.tsx`: Wraps the app with `ApolloProvider` for GraphQL integration.
+- **Dependencies**:
+  - `@apollo/client` and `graphql` for GraphQL queries.
+  - `@types/graphql` for TypeScript support (optional).
+  - Next.js with TypeScript, ESLint, and Tailwind CSS.
+
+## Running the App
+1. Install dependencies: `npm install`
+2. Start the development server: `npm run dev`
+3. Open `http://localhost:3000` in a browser.
+
+## Next Steps
+- Implement components to use the `GET_EPISODES` query to display episode data.

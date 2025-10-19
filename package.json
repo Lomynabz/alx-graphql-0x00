@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Lomynabz/alx-graphql-0x00#readme",
   "dependencies": {
+    "@apollo/client": "^4.0.7",
+    "@types/graphql": "^14.2.3",
     "graphql": "^16.11.0",
     "graphql-request": "^7.3.1"
   }
