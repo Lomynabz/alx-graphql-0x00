@@ -40,3 +40,11 @@ This section fetches a paginated list of characters from the Rick and Morty API 
 ### Run Instructions
 1. Ensure dependencies are installed: `npm install`.
 2. Run the script: `node fetch-characters-pages.js`.
+
+## Episode Query
+- **File**: `episode/episode-page-1.graphql`
+- **Description**: A GraphQL query to fetch details of a specific episode by its ID. The query retrieves the `id`, `name`, `air_date`, and `episode` fields.
+- **Example Usage**:
+  - Query: `episode-page-1.graphql`
+  - Variables: `{ "id": "1" }`
+  - Expected Output: See `episode-page-1-output.json` (if created).
